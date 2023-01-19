@@ -1,5 +1,8 @@
-Page accueil :  se connecter (‘/login ‘) ou créer un compte (‘/nouveaucompte’)
-Page de connexion : entrer nom utilisateur et mdp  si déjà un compte -> vers page user(‘/pageuser/nomutilisateur’) 
-Page création de compte : entrer nouveau nom utlisateur et nouveau mdp -> redirection vers page de connexion(‘/login’)
-Pageuser : Affichage des plans de l’user et lien vers page de création d’un nouveau plan -> (‘/nouveaupotager/user’)
-Nouveau potager : Entrer des paramètres puis génération du plan(affichage + sauvegarde dans la table du user) lien pour revenir à la page user (‘/pageuser/user’)
+ATTENTION : il faut faire tourner l'app dans le dossier 'pp2i', SURTOUT PAS dans 'app' ni 'app/flask/'
+
+Pour la faire tourner en "mode presentation" il suffit juste d'entrer "source ./run.sh" dans LE BON DOSSIER (cf. la ligne du dessus)
+
+Nota bene :
+Le fichier "setup_presentation.py" executé lors de l'éxecution de "run.sh" vide la base de donnée (utilisateurs et plans).
+Puis la remplit en ajoutant comme unique utilisateur "Romain Samba" avec comme mot de passe "columbia".
+Ensuite il ajoute automatiquement 3 potagers à son profil.
