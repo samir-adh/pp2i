@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    color: black;
+    font-family: Helvetica;
+}
+
+body {
+    height: 59em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+.login {
+    display: flex;
+    margin: 2em;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 0.25em;
+    margin: 0em 0.25em;
+    border-radius: 4px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    font-style: normal;
+}
+
+main {
+    display: grid;
+    flex-direction: column;
+    background-color: salmon;
+    padding: auto;
+    margin: 0;
+    height: 100%;
+}
+</p>
+
+.identifiants {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section {
+    margin: 2em;
+}
+
+.description_app {
+    padding: auto;
+}
+
+
+header,
+footer {
+    width: auto;
+    background-color: grey;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: auto;
+}
+
+header {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+footer {
+    padding: 2em;
+    bottom: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

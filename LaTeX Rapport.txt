@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Rapport Etat d'Art Groupe 24}
+\author{Samir ABDALLAH, Yamine BOUALIT, Adrien DIDON, Romain SAMBA}
+\date{Jeudi 20 Octobre 2022}
+
+\begin{document}
+
+\maketitle
+\newpage{}
+\section{Rapport de l'état d'art}
+
+Selon agriculture.gouv : «la notion de circuit court est utilisé pour valoriser un mode de vente en limitant le nombre d’intermédiaires »
+Ainsi on distingue deux formes de ventes en circuit courts : 
+La vente directe où le producteur vent directement au consommateur. On peut également parler de circuit court lorsque la vente se fait grâce à au plus un intermédiaire. 
+
+Les Jardins partagés ou jardins communautaire représentent la quintessence du circuit court on confond alors producteur et consommateur. Ces jardins ruraux ou urbains sont généralement gérés en commun par un groupe d’habitants. On retrouve dans certaines villes des projets communautaires plus ambitieux, des micro-fermes. Les micro-fermes sont des fermes de moins d’un ha, qui apporte une autosuffisance alimentaire aux habitants. Ces dernières tendent vers un équilibre financier apportant autonomie à ces membres. 
+
+Pour l’agriculture des AMAP (Association pour le Maintien de l’Agriculture Paysanne) sont mis en place à travers des contrats entre producteurs et consommateurs. Dans ce cadre les consommateurs peuvent financer les agriculteurs à l’avance, décidant ensemble de la nature et des quantités des denrées produites, le producteur distribue ainsi des paniers au consommateurs lors des récoltes.
+
+La simple exploitation de son jardin privé n’est pas non plus à négliger. On peut tous produire nos propres produits si on A petit bout de terre et un peu de temps. Les surplus de ses denrées privées peuvent être simplement redistribuer aux proches, ou grâce aux réseaux sociaux des jardins. 
+
+Aujourd’hui différentes applications servent à optimiser la production agricole et à favoriser les circuits courts. De nombreuses outils sont disponibles : aide à la gestion du potager, planificateur de tâches, calendrier, carte des jardins partagers:\\
+• Mon Jardin Potager: le guide du potager pour les nuls
+• PlantNet : permet d’identifier une plante inconnue  grâce à une simple photo
+• Teekers. Fr : Le marché en ligne des commerçants de proximités
+• L’arrosoir : Permet de  savoir quand et comment arroser vos plantes 
+• Adopte ma tomate et Plantezcheznous.com : qui mettent en relation les particuliers disposant d’un jardins non exploité et ceux disposant d’une envie de jardiner
+
+
+\newpage{}
+
+\section{Présentation de l'application proposée}
+
+La problématique que notre application devra traiter est l’optimisation de la disposition des plantes dans le potager. En effet, il est nécessaire de réfléchir à la répartition des plantes sur la surface pour tirer le maximum de la variété des plants et maximiser les récoltes. Notre application aura donc pour but de simplifier cette tâche pour l’utilisateur.
+L’idée serait qu’en entrée l’utilisateur référence les dimensions du terrain qu’il veut exploiter ainsi que les différentes plantes qu’il veut y placer. C’est alors que l’application fournira une répartition équitable du terrain qui respecterait l’espace nécessaire pour chaque plante.
+L’innovation apportée par notre projet est l’importance accordées aux associations entre plantes qui peuvent permettent un meilleur rendement ou à l’inverse nuire au bon déroulement de leur croissance. On pourra alors répertorier dans une base de données les informations relatives à chaque plante et ainsi s’appuyer sur cette base pour chaque utilisation du logiciel.
+L’application pourrait renvoyer plusieurs plans à l’utilisateur si le programme en trouve plusieurs satisfaisante et il serait possible de choisir si oui ou non on prend compte les associations de plantes pour une utilisation plus simplifiée de l’application. L’application serait aussi munie d’un système de sauvegarde qui permettrait à l’utilisateur de cumuler différents potagers et de pouvoir garder en mémoire l’emplacement de ces différentes plantations tout au long du processus.
+De plus des modifications serait possible en cas de changement partiel de potager ou encore dans le cadre d’un terrain partiellement exploité comme les jardins partagés. L’application permettrait ainsi de faciliter leur gestion en renseignant quelles plantes sont déjà présentes et lesquelles on voudrait ajouter, le programme pourra alors s’adapter et proposer un nouveau plan tout en respectant l’ancien.
+
+\newpage{}
+
+
+
+\section{Gestion de projet}
+
+Afin de mener à bien ce projet il est nécessaire dans un premier temps d’évaluer sa pertinence faire le bilan de nos contraintes et d’établir une première vision du déroulement du projet.
+Pour évaluer la faisabilité de ce projet, on peut tout d’abord faire une analyse du projet grâce à une matrice SWOT dans laquelle sont répertoriées nos forces, faiblesses, opportunités et menaces.
+\\
+\\
+Forces : \\ 
+    • Accord unanime de l’équipe sur l’idée du projet\\
+    • Compétences basiques en développement web, algorithmique et base de données\\
+    \\
+Faiblesses : \\
+    • Peu d’expérience en développement d’applications web\\
+    • Le projet manque de spécifications\\
+    • Il nous est pour le moment difficile d’estimer quantitativement l’efficacité que pourrait avoir notre application\\
+    \\
+Opportunités: \\
+    • Le projet s’inscrit complètement dans la continuité des compétences enseignées à l’école\\
+    • Existence dans le domaine du jeu vidéo d’algorithmes de génération de cartes avec contraintes\\
+    \\
+Menaces : \\
+    • Il nous sera difficile d’obtenir des retours externes sur l’utilisation de notre application\\
+    • Contrainte temporelle : notre marge de manoeuvre diminuera fortement au cours du temps\\
+
+
+
+
+
+
+
+
+
+ Comme indiqué sur la matrice, notre projet manque aujourd’hui de spécification et de mesurabilité, notre premier objectif sera donc de palier à ces lacunes par la réalisation d’un premier prototype afin de définir de façon précise les spécifications attendues de notre projet et pouvoir mettre en place des premiers outils pour mesurer sa capacité à répondre au problème qui lui est posé.
+La réalisation de ce premier objectif nous permettra de préciser la vision sur le long terme du projet en particulier par le temps qui sera accordé aux différents volets techniques : interface utilisateur, algorithmique et base de données.
+La gestion du projet se fera sur la base de cycles courts suivant la méthode PCDA : planifier, développer, contrôler, ajuster.
+L’objectif à travers cette démarche est double :
+Premièrement la présence de retours internes réguliers de notre avancement, permise par le PDCA, aura pour but de contrebalancer notre manque d’expérience en évitant l’accumulation d’erreurs et de faiblesses dans notre projet.
+Secondement la courte durée des cycles qui s’appuiera sur la mise en place de jalons à intervalles très réguliers aura pour but d’éviter “l’effet tunnel” et donc soutiendra la motivation de l’équipe tout au long du projet.
+Enfin, il nous sera essentiel à l’avenir de définir un calendrier précis des étapes majeures du développement de notre projet afin de respecter les différentes échéances prévues et d’ajuster à l’avance les ambitions du projet en fonction de l’avancement de celui-ci.
+
+
+
+\end{document}
+

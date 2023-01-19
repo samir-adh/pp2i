@@ -1,0 +1,45 @@
+.userpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--border-color);
+    border-radius: 8px;
+    background-color: var(--sec-color);
+    padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 15em;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button_userpage {
+    color: white;
+    background-color: black;
+    border-style: none;
+}
+
+:root {
+    --main-color: #4e4e4e;
+    --sec-color: #f9f9fb;
+    --third-color: rgba(0, 0, 0, 0.2);
+    --border-color: #E4E4E4;
+    --blue-color: #4353ff;
+  }
+
+.plan_pota {
+    height: 10*1.2em;
+    width: 14*1.2em;
+    border-radius: 8px;
+}
+
+.plan_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.5em;
+}

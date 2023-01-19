@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PlantUsher</title>
+        <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/x-icon">
+        <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='nouvpotager.css') }}">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header_left">
+                <a href="/">
+                    <img class="logo" src="{{url_for('static', filename='logo.png')}}" alt="">
+                </a>
+            </div>
+            <div class="header_right">
+                <a class="button login" href="/login">Se connecter</a> <br>
+                <a class="button signup" href="/nouveaucompte">S'inscrire</a>
+            </div>
+        </div>
+        <div class="main">
+            <form class="form" id="form" method="POST" id="fruleg">
+                <img class="illustration" src="{{url_for('static', filename='nouvpotager.png')}}" alt="">
+                <div class="nompota">
+                    <label for="nompota">Nom du potager : </label>
+                    <input type="text" name="nompota" required>
+                </div>
+                {% for i in range(nb) %}
+                <div class="legume">
+                    <label for="fruitslegumes{{i}}"> Légume {{i+1}} :
+                        <select name="fruitslegumes{{i}}">{% for c in base %} <option>{{c[0]}}</option>{% endfor %}</select>
+                    </label>
+                    <label for="nbfruitlegu{{i}}">Quantité :</label>
+                    <input type="number" name="nbfruitlegu{{i}}" min="0" max="20">
+                </div>
+                    {% endfor %}
+                    <input class="button submit_button" type="submit" value="Soumettre">
+            </form>
+        </div>
+        <div class="footer">
+            <div class="right_footer">
+                <img class="logo" src="{{url_for('static', filename='logo_tn.jpg')}}" alt="">
+            </div>
+            <div class="left_footer">
+                <p>pvcc-grp_24</p>
+            </div>
+        </div>
+    </body>        
+</html>

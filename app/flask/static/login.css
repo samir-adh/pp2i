@@ -1,0 +1,61 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--sec-color);
+    margin-top: 10em;
+    margin-bottom: 21em;
+}
+
+.username, .password, .submit {
+    display: flex;
+    justify-content: last baseline;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.submit {
+    justify-content: center;
+}
+
+.submit_button {
+    color: white;
+    border-style: none;
+    background-color: var(--blue-color);
+    font-size: medium;
+}
+
+.mdpbox, .userbox {
+    margin-left: 0.5em;
+}
+
+:root {
+    --main-color: #4e4e4e;
+    --sec-color: #f9f9fb;
+    --third-color: rgba(0, 0, 0, 0.2);
+    --border-color: #E4E4E4;
+    --blue-color: #4353ff;
+  }
+
+.main {
+    display: grid;
+    justify-content: space-around;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 1em;
+    height: 4em;
+    border-radius: 100em;
+    background-color: white;
+    border: 1px solid var(--border-color);
+}

@@ -1,0 +1,39 @@
+:root {
+    --main-color: #4e4e4e;
+    --sec-color: #f9f9fb;
+    --third-color: rgba(0, 0, 0, 0.2);
+    --border-color: #E4E4E4;
+    --blue-color: #4353ff;
+  }
+
+.resultat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    border: solid 1px var(--border-color);
+    background-color: var(--sec-color);
+    border-radius: 8px;
+    margin-top: 10em;
+    margin-bottom: 11em;
+    width: 40em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan_pota {
+    width: 28em;
+}
+
+.compte {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+}

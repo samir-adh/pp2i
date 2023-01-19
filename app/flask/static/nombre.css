@@ -1,0 +1,43 @@
+.submit_button {
+    color: white;
+    border-style: none;
+    background-color: var(--blue-color);
+    font-size: medium;
+}
+
+:root {
+    --main-color: #4e4e4e;
+    --sec-color: #f9f9fb;
+    --third-color: rgba(0, 0, 0, 0.2);
+    --border-color: #E4E4E4;
+    --blue-color: #4353ff;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+    border: solid 1px var(--border-color);
+    background-color: var(--sec-color);
+    border-radius: 8px;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.question, .nbfruleg, .button {
+    margin: 1em;
+}
+
+.main {
+    display: grid;
+    justify-content: space-around;
+}
+

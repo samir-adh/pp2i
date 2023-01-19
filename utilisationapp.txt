@@ -1,0 +1,5 @@
+Page accueil :  se connecter (‘/login ‘) ou créer un compte (‘/nouveaucompte’)
+Page de connexion : entrer nom utilisateur et mdp  si déjà un compte -> vers page user(‘/pageuser/nomutilisateur’) 
+Page création de compte : entrer nouveau nom utlisateur et nouveau mdp -> redirection vers page de connexion(‘/login’)
+Pageuser : Affichage des plans de l’user et lien vers page de création d’un nouveau plan -> (‘/nouveaupotager/user’)
+Nouveau potager : Entrer des paramètres puis génération du plan(affichage + sauvegarde dans la table du user) lien pour revenir à la page user (‘/pageuser/user’)

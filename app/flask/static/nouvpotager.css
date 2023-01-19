@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+    border: solid 1px var(--border-color);
+    background-color: var(--sec-color);
+    border-radius: 8px;
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+
+:root {
+    --main-color: #4e4e4e;
+    --sec-color: #f9f9fb;
+    --third-color: rgba(0, 0, 0, 0.2);
+    --border-color: #E4E4E4;
+    --blue-color: #4353ff;
+  }
+
+.submit_button {
+    color: white;
+    border-style: none;
+    background-color: var(--blue-color);
+    font-size: medium;
+}
+
+.legume {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em;
+}
+
+label {
+    margin: 0.5em;
+}
+
+.nompota {
+    margin-bottom: 1em;
+}
