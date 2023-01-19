@@ -21,7 +21,7 @@ Créer une application web capable de créer au mieux un plan de potager optimis
 
 ATTENTION : il faut faire tourner l'app dans le dossier 'pp2i', SURTOUT PAS dans 'app' ni 'app/flask/'
 
-Pour la faire tourner en "mode presentation" il suffit juste d'entrer dans le terminal "source ./setup.sh" dans LE BON DOSSIER (cf. la ligne du dessus) AVERTISSEMENT : "setup.sh" VIDE TOTALEMENT LA BASE DE DONNÉES. (cf. Nota Bene)
+Pour la faire tourner en "mode presentation" il suffit juste d'entrer dans le terminal "source ./setup.sh" dans LE BON DOSSIER (cf. la ligne du dessus) AVERTISSEMENT : "setup.sh" VIDE TOTALEMENT LA BASE DE DONNÉES. (cf. Nota bene)
 
 Au cas où on souhaiterai relancer l'application sans supprimer les données présentes il faut entrer dans le terminal "source ./run.sh" dans LE BON DOSSIER
 
